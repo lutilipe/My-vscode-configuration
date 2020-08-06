@@ -1,0 +1,50 @@
+{
+  "workbench.colorTheme": "Omni",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[json]": {},
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "mssql.intelliSense.enableErrorChecking": false,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": ""
+    }
+  ],
+  "mssql.intelliSense.enableIntelliSense": false,
+  "explorer.confirmDragAndDrop": false,
+  "material-icon-theme.folders.associations": {
+    "migrations": "tools"
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.formatOnSave": true,
+  "git.ignoreMissingGitWarning": true,
+  "explorer.confirmDelete": false,
+  "colorize.languages": [
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg",
+    "javascript",
+    "typescript"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true
+}
