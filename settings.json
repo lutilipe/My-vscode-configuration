@@ -1,4 +1,15 @@
 {
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.semanticHighlighting.enabled": false,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe",
@@ -6,16 +17,6 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[json]": {},
   "terminal.integrated.shell.linux": "/bin/bash",
-  "mssql.intelliSense.enableErrorChecking": false,
-  "mssql.connections": [
-    {
-      "server": "{{put-server-name-here}}",
-      "database": "{{put-database-name-here}}",
-      "user": "{{put-username-here}}",
-      "password": ""
-    }
-  ],
-  "mssql.intelliSense.enableIntelliSense": false,
   "explorer.confirmDragAndDrop": false,
   "material-icon-theme.folders.associations": {
     "migrations": "tools"
@@ -46,5 +47,6 @@
   ],
   "liveServer.settings.donotShowInfoMsg": true,
   "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true
+  "typescript.suggest.autoImports": true,
+  "python.languageServer": "Microsoft"
 }
