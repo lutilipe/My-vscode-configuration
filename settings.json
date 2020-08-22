@@ -12,7 +12,7 @@
 
   "workbench.colorTheme": "Omni",
   "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[json]": {},
@@ -29,6 +29,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+
   "editor.formatOnSave": true,
   "git.ignoreMissingGitWarning": true,
   "explorer.confirmDelete": false,
@@ -48,5 +49,11 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
-  "python.languageServer": "Microsoft"
+  "python.languageServer": "Microsoft",
+
+  // Rust
+
+  "files.watcherExclude": {
+    "**/target/**": true
+  }
 }
