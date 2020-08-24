@@ -25,12 +25,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+
   "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
 
-  "editor.formatOnSave": true,
   "git.ignoreMissingGitWarning": true,
   "explorer.confirmDelete": false,
   "colorize.languages": [
@@ -55,5 +55,9 @@
 
   "files.watcherExclude": {
     "**/target/**": true
+  },
+  "rust-analyzer.inlayHints.enable": false,
+  "[rust]": {
+    "editor.formatOnSave": true,
   }
 }
