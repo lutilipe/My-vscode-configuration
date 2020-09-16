@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
 
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
@@ -11,7 +11,6 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
 
   "workbench.colorTheme": "Omni",
-  "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -19,7 +18,15 @@
   "terminal.integrated.shell.linux": "/bin/bash",
   "explorer.confirmDragAndDrop": false,
   "material-icon-theme.folders.associations": {
-    "migrations": "tools"
+    "migrations": "tools",
+    "modules": "components",
+    "repositories": "mappings",
+    "entities": "class"
+  },
+
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
   },
 
   "editor.codeActionsOnSave": {
@@ -59,5 +66,6 @@
   "rust-analyzer.inlayHints.enable": false,
   "[rust]": {
     "editor.formatOnSave": true,
-  }
+  },
+  "workbench.iconTheme": "material-icon-theme"
 }
